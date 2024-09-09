@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fuentes/Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-weight: bold;
+}
+
+header{
+    
+    width: 100%;
+    height: 30vh;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)), url(pexels-fauxels-3183151.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-top: -10vh;
+}
+
+h4{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    transform: translateY(70%);
+    border-radius: 40px;
+    font-weight: bold;
+    border: 10px solid #009688;
+    background: transparent;
+    margin: 40px 40px;
+}
+
+.main_4{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.container_4{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+.card_4{
+    width: 100%;
+    margin: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgb(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card_4:hover{
+    box-shadow: 5x 5px 20px rgb(0,0,0,0.5);
+    transform: translateY(-3%);
+}
+.card_4 img{
+    width: 100%;
+    height: 250px;
+}
+.card_4 .contenido_4{
+    padding: 15px;
+    text-align: center;
+}
+.card_4 .contenido_4 .p_4{
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+.card_4 .contenido_4 .h3_4{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.card_4 .contenido_4 .a_4{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    display: inline-block;
+}
+.card_4 .contenido_4 .a_4:hover{
+    background: #2fb4cc;
+    color: #fff;
+    cursor: pointer;
+}
+
+a{
+    margin-bottom: 20px;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+
+
+a h2{
+    text-align: center;
+    border-radius: 40px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px 500px;
+    
+}
+a:hover{
+    border: none;
+}
+
